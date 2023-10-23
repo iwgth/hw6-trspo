@@ -2,7 +2,7 @@ import socket
 
 # адреса та порт сервера
 server_address = ('localhost', 12345)
-# створення сокету та очікування з'єднання
+# створення сокету та очікування з'єднання 2
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind(server_address)
 server_socket.listen(1)
